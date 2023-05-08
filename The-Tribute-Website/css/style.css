@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background: #e5e5e5;
+  min-height: 100vh;
+  border: 10px solid #1d1e4c;
+}
+.top-section {
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.image {
+  height: 300px;
+  width: 320px;
+}
