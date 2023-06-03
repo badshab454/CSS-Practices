@@ -1,19 +1,38 @@
-.hero_section {
-  background: url(images/developer.png);
-  min-height: 100vh;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-html,
 body {
-  line-height: 1.4;
+  font-family: sans-serif;
+}
+
+.hero-section {
+  background-image: url(../images/developer.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+.text-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 70px 0 0 20px;
+  font-weight: normal;
+  line-height: 5rem;
+}
+.text-container h2,
+.black-box h2 {
   font-weight: 300;
-  font-family: "Roboto", sans-serif;
+  font-size: 70px;
+}
+.sm-text {
+  font-size: 30px;
+  font-weight: bold;
+}
+.black-box {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
 }
